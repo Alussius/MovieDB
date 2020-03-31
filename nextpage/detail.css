@@ -1,0 +1,45 @@
+#header{
+  height: 470px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: auto 550px;
+  opacity: .95;
+}
+
+#card-container{
+  height: 470px;
+}
+
+#card{
+  top: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#poster{
+  max-height: 450px;
+  max-width: 300px;
+}
+
+.cast-card{
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 138px;
+}
+
+.card-img-top{
+  width: 138px;
+  height: 175px;
+}
+
+p{
+  word-wrap: break-word;
+}
+
+@media(max-width: 768px){
+  #description{
+    max-height: 110px;
+    overflow-y: scroll;
+    overflow: auto;
+  }
+}

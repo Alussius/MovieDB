@@ -1,0 +1,102 @@
+div{
+  display: block;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: black;
+  text-decoration: none;
+}
+
+.wrapper{
+  padding: 0 auto 0 auto;
+}
+
+header{
+  padding: 0 auto 0 auto;
+  height: 470px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: auto 510px;
+  opacity: .95;
+}
+
+#header{
+  margin: 30px 10px 20px 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 520px);
+  background-color: white;
+  justify-items: center;
+}
+
+.myCard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.mb-4{
+  margin-bottom: 30px!important;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+}
+
+.card-img{
+  max-width: 20px;
+}
+
+.body{
+  padding: 3%;
+}
+
+.card-body > p{
+  display: table-cell;
+  padding: 0 0 10% 0;
+}
+
+.background-image{
+  height: 470px;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(16.47%, 32.16%, 74.51%, 0.95);
+  z-index: 1;
+}
+
+.container{
+  margin: 0 auto 0 auto;
+  position: relative;
+  z-index: 5;
+}
+
+.detail-card{
+  display: grid;
+  grid-template-columns: 300px 700px;
+  margin: 10 auto 10 auto;
+  width: 1000px;
+  justify-items: center;
+}
+
+.detail-info{
+  width: 600px;
+}
+
+.card-title{
+  margin-bottom: 0px;
+}
+
+.card-date{
+  margin-bottom: 30px;
+  font-size: .8em;
+  font-weight: normal;
+}
